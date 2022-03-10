@@ -3,8 +3,8 @@ body{
 }
 main{
     display: flex;
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     justify-content: center;
     align-items: center;
   
@@ -21,7 +21,7 @@ main{
     border-radius: 20px;
     box-shadow: 0 0 10px black;
   }
-  
+/* fim do container inicial */
   .title{
     display: flex;
     justify-content: center;
@@ -52,17 +52,6 @@ main{
   
   .input label {
     font: bold 1.5rem serif;
-  }
-  
-  button{
-    width: 300px;
-    height: 40px;
-    font: bold 1.2rem serif;
-    background: #000;
-    color: #4c751c;
-    outline: none;
-    border-radius: 5px;
-    cursor: pointer;
   }
   
   .result{
